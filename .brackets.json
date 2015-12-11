@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/ClintJames/chat-app/www/js/services/socket.js",
+        "C:/Users/ClintJames/chat-app/www/js/app.js"
+    ]
+}
