@@ -5,6 +5,7 @@ app.controller('LoginController',function($state,$sanitize) {
         //sanitize the nickname
         var nickname=$sanitize(self.nickname)
         //if the nickname input has already been sanitized, change state to chat.
+        alert('you clicked join!');
         if(nickname)
         {
             $state.go('chat',{
